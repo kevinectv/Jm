@@ -142,11 +142,11 @@
             
           </div>
 
-             <% if(is_logged) {%>
-              <span><%= user.username %>#<%= user.discriminator %></span>
-            <%} else {%>
+             
+              
+            
   <span><a href="/auth/login" style="color: #FFFFFF;">Log-in</a></span>
-                <%}%>
+               
         </button>
 
       </div>
@@ -175,9 +175,9 @@
 
           <div class="btn-group">
 
- <% if(is_logged) {%>
+
      <button class="btn btn-link">Dashboard</button>
-            <%} else {%>
+            
                 <a href="/auth/login" class="btn btn-primary"><span>Login</span>
 
               <ion-icon name="enter-outline"></ion-icon>

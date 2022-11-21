@@ -56,12 +56,12 @@
            <button class="btn-sign_in">
 
 
-             <% if(is_logged) {%>
+
                  
               <a href="/profile" style="color: #FFFFFF;"></a>
-            <%} else {%>
+            
     <img src="assets/images/logo.svg" ></img>
-                <%}%>
+                
         </button>
           <button class="nav-close-btn" data-nav-close-btn>
             <ion-icon name="close-outline"></ion-icon>
@@ -134,11 +134,11 @@
         <button class="btn-sign_in">
 
           <div class="icon-box">
-              <% if(is_logged) {%>
-              <img src="https://cdn.discordapp.com/avatars/<%= user.id %>/<%= user.avatar %>.png?size=512%>" ></img>
-            <%} else {%>
+              
+            <img src="https://cdn.discordapp.com/avatars/<%= user.id %>/<%= user.avatar %>.png?size=512%>" ></img>
+            
   <ion-icon name="log-in-outline"></ion-icon>
-                <%}%>
+                
             
           </div>
 

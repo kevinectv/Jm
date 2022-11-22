@@ -420,7 +420,7 @@ body.active { overflow-y: hidden; }
 \*-----------------------------------*/
 
 .section-wrapper {
-  background: url("../images/section-wrapper-bg.jpg") no-repeat;
+  background: url("../images/section-wrapper-bg.png") no-repeat;
   background-size: cover;
   background-position: center;
 }

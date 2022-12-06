@@ -379,7 +379,7 @@ body.active { overflow-y: hidden; }
   background: url("../images/backgrd.png") no-repeat;
   background-size: cover;
   background-position: top center;
-  margin-top: 90px;
+  margin-top: 0px;
   padding: var(--section-padding) 0;
   height: 100vh;
   max-height: 1000px;

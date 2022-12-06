@@ -376,7 +376,7 @@ body.active { overflow-y: hidden; }
 \*-----------------------------------*/
 
 .hero {
-  background: url("../images/backgrd.png") no-repeat;
+  background: url("../images/backgrdzt.png") no-repeat;
   background-size: cover;
   background-position: top center;
   margin-top: 0px;

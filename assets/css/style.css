@@ -297,10 +297,11 @@ body.active { overflow-y: hidden; }
   right: -300px;
   width: 100%;
   max-width: 300px;
-  background: var(--raisin-black-2);
+  background: var(--raisin-black-1);
   height: 100%;
   box-shadow: 0 2px 8px hsla(0, 0%, 0%, 0.5);
   visibility: hidden;
+  backdrop-filter: Blur(10px);
   z-index: 2;
   transition: var(--transition-2);
 }

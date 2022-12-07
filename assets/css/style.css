@@ -263,7 +263,7 @@ body.active { overflow-y: hidden; }
   #HEADER
 \*-----------------------------------*/
 
-.header2 {
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -275,13 +275,13 @@ body.active { overflow-y: hidden; }
   z-index: 4;
 }
 
-.header2 .container {
+.header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header2-actions { display: none; }
+.header-actions { display: none; }
 
 .nav-open-btn {
   color: var(--white);

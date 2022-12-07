@@ -440,7 +440,7 @@ body.active { overflow-y: hidden; }
 .character { display: none; }
 
 .about-content {
-  background: var(--raisin-black-1);
+  background: var(--raisin-black-4);
   color: var(--white);
   padding: 40px 20px;
   border-radius: 4px;
@@ -536,7 +536,7 @@ body.active { overflow-y: hidden; }
 
 .tournament-prize data {
   background: var(--orange);
-  color: var(--raisin-black-1);
+  color: var(--raisin-black-4);
   font-family: var(--ff-oswald);
   font-size: var(--fs-4);
   padding: 8px 42px;
@@ -784,7 +784,7 @@ body.active { overflow-y: hidden; }
 .gears-card .card-btn {
   --polygon-1: polygon(75% 0, 100% 25%, 100% 100%, 25% 100%, 0 75%, 0 0);
 
-  background: var(--raisin-black-1);
+  background: var(--raisin-black-4);
   color: var(--orange);
 }
 

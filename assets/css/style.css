@@ -291,7 +291,7 @@ body.active { overflow-y: hidden; }
 
 .nav-open-btn ion-icon { --ionicon-stroke-width: 40px; }
 
-.navbar {
+.navbar.header {
   position: fixed;
   top: 0;
   right: -300px;

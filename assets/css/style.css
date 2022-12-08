@@ -291,7 +291,7 @@ body.active { overflow-y: hidden; }
 
 .nav-open-btn ion-icon { --ionicon-stroke-width: 40px; }
 
-.navbar {
+.navbar2 {
   position: fixed;
   top: 0;
   right: -300px;
@@ -307,13 +307,13 @@ body.active { overflow-y: hidden; }
 }
 
 
-.navbar.active {
+.navbar2.active {
   right: 0;
   visibility: visible;
   transition: var(--transition-3);
 }
 
-.navbar-top {
+.navbar2-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -329,12 +329,12 @@ body.active { overflow-y: hidden; }
 
 .nav-close-btn ion-icon { --ionicon-stroke-width: 70px; }
 
-.navbar-list {
+.navbar2-list {
   border-top: 1px solid hsla(0, 0%, 100%, 0.1);
   margin-bottom: 30px;
 }
 
-.navbar-link {
+.navbar2-link {
   color: var(--white);
   font-size: 15px;
   padding: 10px 25px;
@@ -343,7 +343,7 @@ body.active { overflow-y: hidden; }
   transition: 0.15s ease-in-out;
 }
 
-.navbar-link:is(:hover, :focus) { color: var(--orange); }
+.navbar2-link:is(:hover, :focus) { color: var(--orange); }
 
 .nav-social-list {
   display: flex;

@@ -271,7 +271,7 @@ body.active { overflow-y: hidden; }
   background: var(--raisin-black-1);
   box-shadow: 0 3px 27px hsla(0, 0%, 0%, 0.5);
   padding-block: 20px;
-  backdrop-filter: Blur(10px);
+  
   z-index: 2;
 }
 
@@ -1207,6 +1207,7 @@ body.active { overflow-y: hidden; }
     width: 115px;
     height: 20px;
     background: var(--raisin-black-1);
+    backdrop-filter: Blur(10px);
     bottom: -17px;
   }
 

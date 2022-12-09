@@ -301,7 +301,7 @@ body.active { overflow-y: hidden; }
   height: 100%;
   box-shadow: 0 2px 8px hsla(0, 0%, 0%, 0.5);
   visibility: hidden;
-  backdrop-filter: Blur(10px);
+  
   z-index: 2;
   transition: var(--transition-2);
 }

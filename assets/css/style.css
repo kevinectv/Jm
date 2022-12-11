@@ -274,7 +274,17 @@ body.active { overflow-y: hidden; }
   
   z-index: 4;
 }
+.header {
 
+   background: rgba(0,0,0,.4) !important;
+
+   box-shadow: 0px 5px 15px rgba(100,100,100,0.3) !important;
+
+   backdrop-filter: blur(12px) !important;
+
+   -webkit-backdrop-filter: blur(12px) !important;
+
+}
 
 .header .container {
   display: flex;

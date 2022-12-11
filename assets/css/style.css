@@ -274,7 +274,7 @@ body.active { overflow-y: hidden; }
   
   z-index: 4;
 }
-.header {
+.header .navbar{
 
    background: rgba(0,0,0,.4) !important;
 
